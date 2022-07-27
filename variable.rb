@@ -31,3 +31,15 @@ p a * b * c
 a = b
 
 p a + b
+
+
+
+# Constants
+
+LOCATION = "Fairfax"
+STATE = "Virginia"
+
+puts LOCATION
+puts  STATE
+
+p "I live in" + " " + LOCATION + " ," + STATE
